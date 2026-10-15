@@ -525,7 +525,7 @@
     // --- ฟังก์ชันแชร์ร้านอาหาร ---
     function shareShop(shopName, lat, lng) {
       const mapLink = (lat && lng) ? ` https://www.google.com/maps/search/?api=1&query=${lat},${lng}` : '';
-      const shareText = `แนะนำร้านอร่อยเชียงของ: ${shopName}${mapLink}`;
+      const shareText = `แนะนำร้านอร่อยแม่จัน: ${shopName}${mapLink}`;
 
       if (navigator.share) {
         navigator.share({
